@@ -1,0 +1,6 @@
+flask
+flask-cors
+reportlab
+pillow
+gunicorn
+gevent

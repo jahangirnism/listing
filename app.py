@@ -551,8 +551,9 @@ BUILDING HIGHLIGHTS
 - [max 6 words — lead with what competitors miss]
 LOCATION
 - [max 7 words]
-JnA House — Premium Data-Driven Dubai Brokerage
-Contact: info@jnahouse.com or WhatsApp 971585719898
+Presented by JnA House
+Trusted experts in Dubai real estate, providing professional guidance, smooth transactions, and dedicated support.
+For viewing and inquiries, contact JnA House today.
 Return ONLY valid JSON: {"title":"...","description":"..."}`;
 
   const userPrompt=`Building: ${loc}\\nArea: ${area||'Dubai'}\\nBedrooms: ${bedsLabel}\\nSize: ${size} sq ft\\nType: ${listingType}\\nPrice: AED ${price}\\nFurnishing: ${furnLabel}\\nView: ${viewLabel}\\nNotes: ${notes||'none'}\\n\\nResearch what makes ${loc} unique vs competitors on PropertyFinder and Bayut. Lead BUILDING HIGHLIGHTS with angles competitors miss.\\nReturn ONLY JSON: {"title":"...","description":"..."}`;
